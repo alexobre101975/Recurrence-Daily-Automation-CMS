@@ -1,0 +1,157 @@
+Recurrence Daily (Breakfast,Lunch,Dinner)
+Validations:
+PR01 Automation to enter Community Waterford and not fill tab Title, Description
+
+Description:
+the validation is not to fill in the title and description fields and the message "required field" appears and when recording the capture of the meal it is not done because it is required to fill in those fields (title and description)
+
+
+
+la validacion es no llenar los campos de title y description y aparezca el mensaje "required field" y al momento de grabar la captura del meal no se realice debido que se requiere llenar esos campos (title and description).
+
+
+
+
+
+PR02 Automation to enter Community Waterford fill title tab not fill description Tab
+
+Description:
+The validation is to fill only the Title field and wait for the message "required field" to appear.
+try to record the meal and it is not done.
+
+Important: here there is a delay of 10 seconds in appearing the name that was assigned to the title field
+
+
+
+
+
+PR03 Automation to enter Community Waterford fill in the Description field and delete the information in the Title field
+
+
+description:
+This Validation removes information from the title field and fills the description field, the message "required field" continues to appear and we try to save and it does not do so due to the lack of a required field to fill
+
+descripcion:
+Esta Validacion elimina informacion del campo de titulo y llena el campo de descripcion sigue apareciendo el mensaje "required field" y intentamos grabar y no lo hace debido a falta un campo por llenar obligatorio.
+
+
+
+
+
+
+PR04 Automation to enter Community Waterford fill in the title field and the Description field (Breakfast)
+
+Description:
+the validation now fills the mandatory fields (title and description) fills the general information, identifier information, navigates through the different categories and returns to the one that appears by default (Breakfast)
+and recurrence information just clicks on the calendar date field without entering it.
+
+
+
+
+
+Descripcion:
+la validacion ahora llena los campos obligatorios (title and description) llena la informacion general, informacion de identificadores, navega por las diferentes categorias y regresa a la que aparece por default(Breakfast)
+y informacion de las recurrencias solo hace clic en el campo de fecha de calendario sin entrar en el.
+
+
+
+
+
+
+
+PR05 Automation Community Waterford Enter "Does not repeat"
+
+Description:
+* Validation is to enter "Does not Repeat" (the recurrences window appears).
+
+	* We modify the "Every" field to the number that appears by default.
+	* We modify the "Occurrences" field that appears by default.
+	* we tried to enter the "Save" button But it is still inactive (after these modifications).
+	* the "End" field we enter "On this Date".
+	* we enter the calendar symbol.
+	* advance a month.
+	* we go back to the current month.
+	* We select a different day than the one that appears by default.
+	* we try to enter the "Save" button is still Inactive.
+	* We enter the "Cancel" button and the Recurrences window ("Does not repeat") will disappear
+	* We enter again the calendar of the "Recurrences" window.
+	* advance to the next month.
+	* We select a new day within the coming month.
+	* enter the "save" button.
+	* wait for the message "This meal has been added succesfully".
+	* the screenshot appears without recurrence and with the category "Breakfast".
+
+
+
+
+
+
+Descripcion:
+* la Validacion es entrar "Does not Repeat"(aparece la ventana de recurrencias).
+
+	* modificamos el Campo de "Every" el numero que aparece por default.
+	* modificamos el campo "Ocurrences" que aparece por default.
+	* intentamos entrar al boton de "Save" Pero sigue inactivo (despues de estas modificaciones).
+	* el campo de "End" entramos "On this Date".
+	* entramos al simbolo de calendario. 
+	* avanzamos un mes.
+	* retrocedemos al mes actual.
+	* seleccionamos un dia diferente al que aparece por default.
+	* intentamos entrar al boton de "Save"sigue Inactivo.
+	* entramos al boton de "Cancel" y desaparecera la ventana de Recurrencias("Does not repeat")
+	* entramos nuevamente al calendario de la ventana de "Recurrences".
+	* avanzamos al mes sigiente.
+	* seleccionamos un nuevo dia dentro del mes entrante.
+	* entrar al boton de  "save".
+	* esperar el mensaje "This meal has been added succesfully".
+	* aparece la captura en pantalla sin recurrencia y con la categoria "Breakfast".
+
+
+
+
+
+
+
+
+PR06 Automation Community Waterford "Recurrence Daily"(Lunch)
+
+Validation is complete; fill all existing fields, use daily recurrence, category is Lunch, advance to next month, select a day using JavaScript to click.
+modifies the "Every" and "Occurrences" fields that appear by default.
+enter the "save" button, wait for the message "This meal has been added succesfully" and the captures with their recurrences appear.
+
+
+
+
+
+La Validacion es completa; llena todos los campos existentes,usa la recurrencia diaria,la categoria es Lunch, avanza al mes entrante, selecciona un dia usando JavaScript para dar clic.
+modifica el Campo de "Every" y "Ocurrences"que aparece por default.
+entrar al boton de  "save",esperar el mensaje "This meal has been added succesfully" y aparecen las capturas con sus recurrencias.
+	
+
+
+
+PR07 Automation to enter Community Waterford Recurrence Daily (Dinner)
+
+Validation is complete; fill all existing fields, use daily recurrence, category is Dinner, advance to next month, select a day using JavaScript to click.
+modifies the "Every" and "Occurrences" fields that appear by default.
+enter the "save" button, wait for the message "This meal has been added succesfully" and the captures with their recurrences appear.
+
+
+
+
+
+La Validacion es completa; llena todos los campos existentes,usa la recurrencia diaria,la categoria es Dinner, avanza al mes entrante, selecciona un dia usando JavaScript para dar clic.
+modifica el Campo de "Every" y "Ocurrences"que aparece por default.
+entrar al boton de  "save",esperar el mensaje "This meal has been added succesfully" y aparecen las capturas con sus recurrencias.
+
+
+
+
+
+
+
+Description:
+La validacion es llenar solamente el campo de Titulo esperar que aparezca el mensaje "required field"
+intentar grabar el meal y no se realice. 
+
+Importante: aqui hay un retraso de 10 segundos en aparecer el nombre que se le asigno al campo de titulo			
