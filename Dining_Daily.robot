@@ -509,7 +509,7 @@ PR07 Automation to enter Community Waterford Recurrence Daily (Dinner)
 
  # Click Save Button Dinning
          scroll element into view                ${Save_btn}
-        wait until element is visible            ${Save_btn}
+         wait until element is visible            ${Save_btn}
          click element                           ${Save_btn}
 
 # Make the Alert message "This meal has been added succesfully" visible
