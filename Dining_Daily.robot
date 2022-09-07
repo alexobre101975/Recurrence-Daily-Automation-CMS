@@ -230,7 +230,7 @@ PR05 Automation Community Waterford Enter "Does not repeat"
         click element       ${Calendar_Recurrences}
 
 # advance next month
-        click element       ${advance_month}
+        double click element       ${advance_month}
 
 # return to current month
         click element       ${return_month}
@@ -473,7 +473,7 @@ PR07 Automation to enter Community Waterford Recurrence Daily (Dinner)
 
 
  # enter Star Date Calendar
-        click element                           ${Start-Date}
+        click element             ${Start-Date}
 
 # Enter Botton Calendar
         click element       ${Calendar_Btn}

@@ -34,7 +34,7 @@ ${Calendar_Recurrences}     id=Calendar_Btn_undefined_EndDate
 ${advance_month}            id=calendarHeader_rightArrow
 ${return_month}             id=calendarHeader_leftArrow
 ${day}                      document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day')[18].click()
-${days}                     document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day')[6].click()
+${days}                     document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day')[15].click()
 ${days1}                    document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day')[20].click()
 ${month_day}                document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day')[27].click()
 ${Message_Accept}           id=alert_AddDining_Success
