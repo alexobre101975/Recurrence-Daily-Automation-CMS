@@ -14,7 +14,7 @@ Resource    Resources/Keywords.resource
 PR01 Automation to enter Community Waterford and not fill tab Title, Description
         [Tags]      Validation Test       Case 1
 
-#1 Open Community Waterford
+# Open Community Waterford
         Click Element    ${Community}
         Drag And Drop    ${Waterford}      ${Community}
         Click Element    ${Waterford}
@@ -25,7 +25,7 @@ PR01 Automation to enter Community Waterford and not fill tab Title, Description
         mouse over                          ${Total_Opened}
 
 #  Enter Dinning Window
-        wait until element is visible        ${Dinning}
+        wait until element is visible       ${Dinning}
         scroll element into view            ${Dinning}
         click element                       ${Dinning}
 
@@ -129,8 +129,8 @@ PR02 Automation to enter Community Waterford fill title tab not fill description
 PR03 Automation to enter Community Waterford fill in the Description field and delete the information in the Title field
         [Tags]      Validation Test       Case 3
 # Remove Text Title Tab
-    click element         ${dining_title}
-    Press Keys            ${dining_title}     CTRL+A+DELETE
+        click element         ${dining_title}
+        Press Keys            ${dining_title}     CTRL+A+DELETE
 
 # fill Description
          click element                      ${dining_description}
@@ -160,8 +160,8 @@ PR04 Automation to enter Community Waterford fill title and Description tab (Bre
 
 #  the general information complete
 # Remove Text Description Tab
-    click element       ${dining_description}
-    Press Keys          ${dining_description}    CTRL+A+DELETE
+        click element       ${dining_description}
+        Press Keys          ${dining_description}    CTRL+A+DELETE
 
 # fill title
          click element                      ${dining_title}
@@ -209,12 +209,12 @@ PR05 Automation Community Waterford Enter "Does not repeat"
 # Visible the window Recurrence and the button save inactive
 
 # Modify Every Weeks (increase number of weeks)
-    double click element                ${modify_day}
-    choose file                         ${modify_day}           1
+        double click element                ${modify_day}
+        choose file                         ${modify_day}           1
 
 # Increase Occurrences
-     double click element            ${modify_Occurrences}
-     choose file                     ${modify_Occurrences}      10
+        double click element            ${modify_Occurrences}
+        choose file                     ${modify_Occurrences}      10
 
 # Click Button Save Inactive
         click element       ${SaveRecurrence}
@@ -236,7 +236,7 @@ PR05 Automation Community Waterford Enter "Does not repeat"
         click element       ${return_month}
 
 # Modify a day in the month
-        execute javascript      ${day}
+        execute javascript      ${Oct-13}
 
 # Click Button Save Inactive
         click element       ${SaveRecurrence}
@@ -253,7 +253,7 @@ PR05 Automation Community Waterford Enter "Does not repeat"
         click element       ${advance_month}
 
 # enter a day in the month
-        execute javascript      ${day}
+        execute javascript     ${Oct10}
 
 #  Save Dinning
         element text should be      ${Save_btn}     Save
@@ -354,7 +354,7 @@ PR06 Automation Community Waterford "Recurrence Daily"(Lunch)
         click element       ${advance_month}
 
 # Click Day
-        execute javascript     ${days}
+        execute javascript     ${Oct15}
 
 
 # Visible Repets "Recurrence Daily" and Enter
@@ -368,11 +368,10 @@ PR06 Automation Community Waterford "Recurrence Daily"(Lunch)
 # modify Occurrences
         double click element            ${modify_Occurrences}
         choose file     ${modify_Occurrences}      10
-#
-# Click Save button Recurrencia
 
-        click element                           ${SaveRecurrence}
-#
+# Click Save button Recurrencia
+        click element                          ${SaveRecurrence}
+
  # enter to Calendar
 
         click element                           ${Start-Date}
@@ -384,13 +383,13 @@ PR06 Automation Community Waterford "Recurrence Daily"(Lunch)
         wait until element is visible        ${Message_Accept}
         element should be visible             ${Message_Accept}         This meal has been added succesfully
 
-
-    reload page
+# reload the page to avoid waiting
+        reload page
 
 
 # Click Community Waterford
         scroll element into view            ${Community}
-        wait until element is visible        ${Community}
+        wait until element is visible       ${Community}
         element should be visible           ${Community}    Waterford Community
         click element                       ${Community}
 
@@ -479,11 +478,11 @@ PR07 Automation to enter Community Waterford Recurrence Daily (Dinner)
         click element       ${Calendar_Btn}
 
 # Click advance two month and Return one month
-        Double click element       ${advance_month}
+        Double click element         ${advance_month}
         click element                ${return_month}
 
 # Click Day
-        execute javascript     ${days1}
+        execute javascript     ${Oct15}
 
 # Visible Repets "Recurrence Daily" and Enter
          click element         ${Tab_Repeats}
@@ -508,13 +507,32 @@ PR07 Automation to enter Community Waterford Recurrence Daily (Dinner)
         click element                           ${Start-Date}
 
  # Click Save Button Dinning
-         scroll element into view                ${Save_btn}
+         scroll element into view                 ${Save_btn}
          wait until element is visible            ${Save_btn}
-         click element                           ${Save_btn}
+         click element                            ${Save_btn}
 
 # Make the Alert message "This meal has been added succesfully" visible
         wait until element is visible        ${Message_Accept}
         element should be visible            ${Message_Accept}         This meal has been added succesfully
+
+
+# reload the page to avoid waiting
+        reload page
+
+# Select Button select All
+        scroll element into view                ${Button_SelectAll}
+        click element                           ${Button_SelectAll}
+
+# Delete Menu Items
+        scroll element into view            ${Delete_Multiple_Items}
+        click element       ${Delete_Multiple_Items}
+
+# Are you sure you want to delete the following menu items?
+        scroll element into view            ${Delete_Menu_Items}
+        click element      ${Delete_Menu_Items}
+
+
+
 
 
 

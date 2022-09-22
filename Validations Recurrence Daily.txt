@@ -3,11 +3,17 @@ Validations:
 PR01 Automation to enter Community Waterford and not fill tab Title, Description
 
 Description:
-the validation is not to fill in the title and description fields and the message "required field" appears and when recording the capture of the meal it is not done because it is required to fill in those fields (title and description)
+the validation is not to fill in the title and description fields and the message "required field"
+appears and when recording the capture of the meal it is not done because it is required to
+fill in those fields (title and description)
 
 
+PR01 Automatización para ingresar a Comunidad Waterford y no llenar ficha Título, Descripción
 
-la validacion es no llenar los campos de title y description y aparezca el mensaje "required field" y al momento de grabar la captura del meal no se realice debido que se requiere llenar esos campos (title and description).
+Descripcion:
+la validacion es no llenar los campos de title y description y aparezca el mensaje "required field"
+y al momento de grabar la captura del meal no se realice debido que se requiere llenar esos campos
+(title and description).
 
 
 
@@ -23,16 +29,30 @@ Important: here there is a delay of 10 seconds in appearing the name that was as
 
 
 
+PR02 Automatización para ingresar a la comunidad Waterford llenar la pestaña de título no llenar la pestaña de descripción
+
+Descripción:
+La validación es llenar solo el campo Título y esperar a que aparezca el mensaje "campo requerido".
+intente grabar la comida y no se hace.
+
+Importante: aquí hay un retraso de 10 segundos en aparecer el nombre que se asignó al campo de título
+
+
+
 
 
 PR03 Automation to enter Community Waterford fill in the Description field and delete the information in the Title field
 
 
 description:
-This Validation removes information from the title field and fills the description field, the message "required field" continues to appear and we try to save and it does not do so due to the lack of a required field to fill
+This Validation removes information from the title field and fills the description field, the message "required field"
+continues to appear and we try to save and it does not do so due to the lack of a required field to fill
 
+
+PR03 Automatización para ingresar a Community Waterford llenar el campo Descripción y borrar la información en el campo Título
 descripcion:
-Esta Validacion elimina informacion del campo de titulo y llena el campo de descripcion sigue apareciendo el mensaje "required field" y intentamos grabar y no lo hace debido a falta un campo por llenar obligatorio.
+Esta Validacion elimina informacion del campo de titulo y llena el campo de descripcion sigue apareciendo el mensaje "required field"
+y intentamos grabar y no lo hace debido a falta un campo por llenar obligatorio.
 
 
 
@@ -42,15 +62,18 @@ Esta Validacion elimina informacion del campo de titulo y llena el campo de desc
 PR04 Automation to enter Community Waterford fill in the title field and the Description field (Breakfast)
 
 Description:
-the validation now fills the mandatory fields (title and description) fills the general information, identifier information, navigates through the different categories and returns to the one that appears by default (Breakfast)
+the validation now fills the mandatory fields (title and description) fills the general information, identifier information,
+navigates through the different categories and returns to the one that appears by default (Breakfast)
 and recurrence information just clicks on the calendar date field without entering it.
 
 
 
 
+PR04 Automatización para ingresar a Community Waterford llenar el campo de título y el campo de Descripción (Desayuno)
 
 Descripcion:
-la validacion ahora llena los campos obligatorios (title and description) llena la informacion general, informacion de identificadores, navega por las diferentes categorias y regresa a la que aparece por default(Breakfast)
+la validacion ahora llena los campos obligatorios (title and description) llena la informacion general, informacion de identificadores,
+navega por las diferentes categorias y regresa a la que aparece por default(Desayuno)
 y informacion de las recurrencias solo hace clic en el campo de fecha de calendario sin entrar en el.
 
 
@@ -87,7 +110,7 @@ Description:
 
 
 Descripcion:
-* la Validacion es entrar "Does not Repeat"(aparece la ventana de recurrencias).
+* la Validacion es entrar ""No se repite""(aparece la ventana de recurrencias).
 
 	* modificamos el Campo de "Every" el numero que aparece por default.
 	* modificamos el campo "Ocurrences" que aparece por default.
@@ -115,43 +138,46 @@ Descripcion:
 
 PR06 Automation Community Waterford "Recurrence Daily"(Lunch)
 
-Validation is complete; fill all existing fields, use daily recurrence, category is Lunch, advance to next month, select a day using JavaScript to click.
+Validation is complete; fill all existing fields, use daily recurrence, category is Lunch, advance to next month
+select a day using JavaScript to click.
 modifies the "Every" and "Occurrences" fields that appear by default.
-enter the "save" button, wait for the message "This meal has been added succesfully" and the captures with their recurrences appear.
+enter the "save" button, wait for the message "This meal has been added succesfully"
+and the captures with their recurrences appear.
 
 
 
+PR06 Comunidad de Automatización Waterford "Recurrencia Diaria" (Comida)
 
-
-La Validacion es completa; llena todos los campos existentes,usa la recurrencia diaria,la categoria es Lunch, avanza al mes entrante, selecciona un dia usando JavaScript para dar clic.
+La Validacion es completa; llena todos los campos existentes,usa la recurrencia diaria,la categoria es Lunch
+avanza al mes entrante, selecciona un dia usando JavaScript para dar clic.
 modifica el Campo de "Every" y "Ocurrences"que aparece por default.
-entrar al boton de  "save",esperar el mensaje "This meal has been added succesfully" y aparecen las capturas con sus recurrencias.
+entrar al boton de  "save",esperar el mensaje "This meal has been added succesfully"
+y aparecen las capturas con sus recurrencias.
 	
 
 
 
 PR07 Automation to enter Community Waterford Recurrence Daily (Dinner)
 
-Validation is complete; fill all existing fields, use daily recurrence, category is Dinner, advance to next month, select a day using JavaScript to click.
+Validation is complete; fill all existing fields, use daily recurrence, category is Dinner, advance to next month
+select a day using JavaScript to click.
 modifies the "Every" and "Occurrences" fields that appear by default.
-enter the "save" button, wait for the message "This meal has been added succesfully" and the captures with their recurrences appear.
+enter the "save" button, wait for the message "This meal has been added succesfully"
+and the captures with their recurrences appear.
 
 
 
 
+PR07 Automatización para ingreso a Comunidad Waterford Recurrencia Diaria (Cena)
 
-La Validacion es completa; llena todos los campos existentes,usa la recurrencia diaria,la categoria es Dinner, avanza al mes entrante, selecciona un dia usando JavaScript para dar clic.
+La Validacion es completa; llena todos los campos existentes,usa la recurrencia diaria,la categoria es Dinner
+avanza al mes entrante, selecciona un dia usando JavaScript para dar clic.
 modifica el Campo de "Every" y "Ocurrences"que aparece por default.
-entrar al boton de  "save",esperar el mensaje "This meal has been added succesfully" y aparecen las capturas con sus recurrencias.
+entrar al boton de  "save",esperar el mensaje "This meal has been added succesfully"
+y aparecen las capturas con sus recurrencias.
 
 
 
 
 
 
-
-Description:
-La validacion es llenar solamente el campo de Titulo esperar que aparezca el mensaje "required field"
-intentar grabar el meal y no se realice. 
-
-Importante: aqui hay un retraso de 10 segundos en aparecer el nombre que se le asigno al campo de titulo			
