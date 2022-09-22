@@ -164,6 +164,8 @@ select a day using JavaScript to click.
 modifies the "Every" and "Occurrences" fields that appear by default.
 enter the "save" button, wait for the message "This meal has been added succesfully"
 and the captures with their recurrences appear.
+we reload the page to go up and select the "Select All" button to enter the window
+and select the tab to delete the captures and their recurrences.
 
 
 
@@ -175,6 +177,8 @@ avanza al mes entrante, selecciona un dia usando JavaScript para dar clic.
 modifica el Campo de "Every" y "Ocurrences"que aparece por default.
 entrar al boton de  "save",esperar el mensaje "This meal has been added succesfully"
 y aparecen las capturas con sus recurrencias.
+damos recargar la pagina para ir hacia arriba y seleccionar el boton de "Select All" para entrar a las ventana
+y seleccionar el tab de eliminar las capturas y sus recurrencias.
 
 
 
